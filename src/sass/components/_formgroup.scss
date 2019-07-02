@@ -1,0 +1,47 @@
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.6rem;
+  position: relative;
+
+  label {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 0.8rem;
+  }
+
+  &__checkboxs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__checkbox {
+    display: flex;
+    align-items: center;
+    min-width: 50%;
+    font-size: 1.4rem;
+
+    span {
+      padding: 0.4rem;
+    }
+  }
+
+  &__radios {
+    display: flex;
+    align-items: center;
+    min-width: 50%;
+    font-size: 1.4rem;
+  }
+
+  &__radio {
+    display: flex;
+    align-items: center;
+    min-width: 50%;
+    font-size: 1.4rem;
+
+    span {
+      padding: 0.4rem;
+    }
+  }
+}
